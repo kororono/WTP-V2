@@ -175,7 +175,7 @@ a {
 /* Responsive spacing utility for desktop navbar */
 @media (min-width: 768px) {
   .md\:pt-32 {
-    padding-top: 8rem !important;
+    padding-top: 10rem !important;
   }
   
   .md\:pb-0 {
