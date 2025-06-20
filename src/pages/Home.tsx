@@ -27,14 +27,32 @@ function Home() {
             }}>
               WeThePeopleKE Civic Platform
             </h1>
-            <p style={{
-              fontSize: '18px',
-              color: '#6b7280',
-              fontStyle: 'italic',
-              margin: 0
-            }}>
-              "When the people stand together, no power can silence them."
-            </p>
+            <div style={{ marginBottom: '16px' }}>
+              <p style={{
+                fontSize: '16px',
+                color: '#1f2937',
+                fontWeight: '600',
+                marginBottom: '8px'
+              }}>
+                Article 1, Constitution of Kenya:
+              </p>
+              <p style={{
+                fontSize: '16px',
+                color: '#374151',
+                marginBottom: '8px',
+                lineHeight: '1.5'
+              }}>
+                "(1) <b>ALL</b> sovereign power belongs to the people of Kenya and <b>SHALL</b> be exercised only in accordance with this Constitution."
+              </p>
+              <p style={{
+                fontSize: '16px',
+                color: '#374151',
+                margin: 0,
+                lineHeight: '1.5'
+              }}>
+                "(2) The people may exercise their sovereign power either <b>DIRECTLY</b> or through their democratically elected representatives."
+              </p>
+            </div>
           </div>
         </section>
 
@@ -128,6 +146,27 @@ function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Inspirational Quote Section */}
+        <section style={{
+          backgroundColor: 'white',
+          padding: '32px 24px',
+          textAlign: 'center'
+        }}>
+          <div style={{
+            maxWidth: '600px',
+            margin: '0 auto'
+          }}>
+            <p style={{
+              fontSize: '18px',
+              color: '#6b7280',
+              fontStyle: 'italic',
+              margin: 0
+            }}>
+              "When the people stand together, no power can silence them."
+            </p>
           </div>
         </section>
 
